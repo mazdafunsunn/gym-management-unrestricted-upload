@@ -4,8 +4,6 @@
 #### Software Link: https://projectworlds.in/free-projects/php-projects/gym-management-system-project-in-php/
 
 #### Exploit:
-The /up.php page allows unauthenticated users to upload a file along with "name" and "ext" parameters, processes it further if the content type indicates it's an image, then saves it as "<name>.<ext>".
-As we fully control the uploaded filepath we can now upload a file anywhere on the machine, so we can now upload our malicious PHP file to the current directory and access it from the page's root.
 
 The /up.php page allows unauthenticated users to upload an image along with "name" and "ext" parameters and attempts to modify the image before saving it as \<name\>.\<ext\> in the project's root directory.
 
